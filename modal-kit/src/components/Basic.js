@@ -29,6 +29,7 @@ export default class Basic extends Component {
 						<button className="cancel">CANCEL</button>
 						<footer>
 							{' '}
+							{/* MAKE OUTER CLICKING ON THE OUTER DIV CLOSE THE MODAL */}
 							<button className="close-modal" onClick={this.toggleModal}>
 								Close Modal
 							</button>

@@ -1,0 +1,44 @@
+.open-modal {
+	/* padding: 10px; */
+	font-family: 'Lato';
+	/* font-size: 14px; */
+	/* font-weight: bolder; */
+	/* border-radius: 18%; */
+	background-color: #1b1c1d;
+	/* color: #fff; */
+	/* cursor: pointer; */
+	/* width: 100px; */
+	/* height: 40px; */
+}
+
+.open-modal:hover {
+	background-color: #2953a0;
+}
+
+.ok {
+	background-color: green;
+}
+
+.cancel {
+	background-color: red;
+}
+
+.close-modal {
+	background-color: #1b1c1d;
+	width: 125px !important;
+}
+
+.open-modal,
+.ok,
+.cancel,
+.close-modal {
+	color: #fff;
+	padding: 10px;
+	border-radius: 18%;
+	cursor: pointer;
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+	font-weight: bolder;
+	border-radius: 18%;
+}

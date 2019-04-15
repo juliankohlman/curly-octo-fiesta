@@ -1,0 +1,13 @@
+.active-modal {
+	position: fixed;
+	display: flex;
+	flex-flow: column;
+	padding: 100px 0;
+	background-color: rgba(0, 0, 0, 0.85);
+	z-index: 1000;
+	color: #fff;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	vertical-align: middle;
+}
