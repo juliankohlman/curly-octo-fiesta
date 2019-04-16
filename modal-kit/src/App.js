@@ -29,6 +29,7 @@ class App extends Component {
 						</li>
 						<li className="ph3 pv3 bb b--light-silver">Movie Info</li>
 						<li className="ph3 pv3 bb b--light-silver">Scrolling</li>
+						<li className="ph3 pv3 bb b--light-silver">Filter</li>
 						<li className="ph3 pv3 bb b--light-silver">Full Screen</li>
 						<li className="ph3 pv3 bb b--light-silver">Mini</li>
 						<li className="ph3 pv3">Large</li>
