@@ -1,0 +1,16 @@
+.actions {
+	align-self: flex-end;
+	flex-flow: row;
+	padding-top: 18px;
+	padding-right: 25%;
+}
+
+/* READ UP ON HOW TO IMPLEMENT AND WHAT NEEDS TO HAPPEN IN PARENT FOR SWITCH TO BE SMOOTH */
+/* @media screen and (max-width: 500px) {
+	.actions {
+		align-self: normal;
+		justify-content: space-evenly;
+		flex-flow: column;
+		padding: 10px;
+	}
+} */

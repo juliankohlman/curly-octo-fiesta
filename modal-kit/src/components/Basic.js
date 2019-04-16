@@ -22,11 +22,19 @@ export default class Basic extends Component {
 				{/* <button onClick={this.toggleModal}>{this.props.title}</button> */}
 				{this.state.isOpen && (
 					<div className="active-modal">
-						<h2>HEADER</h2>
-						<p>CONTENT 1</p>
-						<p>CONTENT 2</p>
-						<button className="ok">OK</button>
-						<button className="cancel">CANCEL</button>
+						<h2>Add Candidate To Project</h2>
+						<p>
+							Teach our software who you want to hire with zero additional
+							effort.
+						</p>
+						<p>
+							With projects, you can organize your recruiting workflow into jobs
+							and candidates.{' '}
+						</p>
+						<div className="actions">
+							<button className="cancel">CANCEL</button>
+							<button className="ok">OK</button>
+						</div>
 						<footer>
 							{' '}
 							{/* MAKE OUTER CLICKING ON THE OUTER DIV CLOSE THE MODAL */}
