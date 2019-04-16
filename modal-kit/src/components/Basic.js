@@ -32,8 +32,8 @@ export default class Basic extends Component {
 							and candidates.{' '}
 						</p>
 						<div className="actions">
-							<button className="cancel">CANCEL</button>
-							<button className="ok">OK</button>
+							<button className="cancel">No</button>
+							<button className="ok">Yes</button>
 						</div>
 						<footer>
 							{' '}
