@@ -2,26 +2,24 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Basic from './components/Basic';
+import Profile from './components/Profile';
 
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				{/* <header className="App-header">
-					<img src={logo} className="App-logo" alt="logo" />
-					<p>
-						Edit <code>src/App.js</code> and save to reload.
-					</p>
-					<a
-						className="App-link"
-						href="https://reactjs.org"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Learn React
-					</a>
-        </header> */}
-				<Basic title="Basic modal" />
+				<header className="tc pv4 pv5-ns">
+					<img
+						src="http://tachyons.io/img/logo.jpg"
+						className="br-100 pa1 ba b--black-10 h3 w3"
+						alt="avatar"
+					/>
+					<h1 className="f5 f4-ns fw6 mid-gray">Julian J. Kohlman</h1>
+					<h2 className="f6 gray fw2 ttu tracked">Modal Kit</h2>
+				</header>
+
+				{/* <Basic title="Basic modal" /> */}
+				<Profile />
 			</div>
 		);
 	}

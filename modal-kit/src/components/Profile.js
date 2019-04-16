@@ -21,32 +21,34 @@ export default class Profile extends Component {
 				)}
 				{/* <button onClick={this.toggleModal}>{this.props.title}</button> */}
 				{this.state.isOpen && (
-					<div className="active-modal">
-						<div className="header">Profile Image</div>
-						{/* image will be thumbnail that should scale up and down */}
-						<div className="image-content">
-							<div className="image-size">
-								<img src="" alt="" />
+					<div className="dimmer">
+						<div className="profile-modal">
+							<div className="header">Select a Photo</div>
+							{/* image will be thumbnail that should scale up and down */}
+							<div className="image-content">
+								<div className="image-size">
+									<img src={require('../images/rachel.png')} alt="profile" />
+								</div>
+								<div className="description">
+									<div className="ui-header">UI HEADER</div>
+									<p>
+										The push: a climbers journey of endurance, risk and going
+										beyond limits
+									</p>
+									<p>Secondary part of content section</p>
+								</div>
 							</div>
-							<div className="description">
-								<div className="ui-header">UI HEADER</div>
-								<p>
-									The push: a climbers journey of endurance, risk and going
-									beyond limits
-								</p>
-								<p>Secondary part of content section</p>
+							<div className="actions">
+								<button className="cancel">CANCEL</button>
+								<button className="ok">OK</button>
 							</div>
-						</div>
-						<div className="actions">
-							<button className="cancel">CANCEL</button>
-							<button className="ok">OK</button>
-						</div>
-						<footer>
+							{/* <footer>
 							{' '}
 							<button className="close-modal" onClick={this.toggleModal}>
 								Close Modal
 							</button>
-						</footer>
+						</footer> */}
+						</div>
 					</div>
 				)}
 			</div>
