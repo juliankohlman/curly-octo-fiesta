@@ -1,12 +1,7 @@
 .actions {
 	width: 40%;
 	display: flex;
-	/* justify-content: flex-end; */
 	margin-left: auto;
-	/* align-self: flex-end; */
-	/* flex-flow: row; */
-	/* padding-top: 18px; */
-	/* padding-left: 2.5em; */
 	padding: 1rem 1rem 0 !important;
 }
 

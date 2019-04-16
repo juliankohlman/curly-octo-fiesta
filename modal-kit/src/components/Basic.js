@@ -2,15 +2,25 @@
 import React, { Component } from 'react';
 
 export default class Basic extends Component {
+	// State can be expanded to handle more modal complexity
 	constructor(props) {
 		super(props);
 		this.state = { isOpen: false };
 	}
 
-	//Todo styled buttons for showing and closing modal
 	toggleModal = () => {
 		this.setState({ isOpen: !this.state.isOpen });
 	};
+
+	// Action handlers would likely be tied to some routing and/or Database interaction
+	cancelHandler = () => {
+		alert('canceling now...');
+	};
+
+	okHandler = () => {
+		alert('great adding candidate now...');
+	};
+
 	render() {
 		return (
 			<div>
@@ -19,9 +29,8 @@ export default class Basic extends Component {
 						{this.props.title}
 					</button>
 				)}
-				{/* <button onClick={this.toggleModal}>{this.props.title}</button> */}
 				{this.state.isOpen && (
-					<div className="active-modal">
+					<div className="active-modal" onClick={this.toggleModal}>
 						<h2>Add Candidate To Project</h2>
 						<p>
 							Teach our software who you want to hire with zero additional
@@ -32,16 +41,19 @@ export default class Basic extends Component {
 							and candidates.{' '}
 						</p>
 						<div className="actions">
-							<button className="cancel">No</button>
-							<button className="ok">Yes</button>
+							<button className="cancel" onClick={this.cancelHandler}>
+								No
+							</button>
+							<button className="ok" onClick={this.okHandler}>
+								Yes
+							</button>
 						</div>
-						<footer>
-							{' '}
-							{/* MAKE OUTER CLICKING ON THE OUTER DIV CLOSE THE MODAL */}
+						{/* Uncomment below to use dedicated close button */}
+						{/* <footer>
 							<button className="close-modal" onClick={this.toggleModal}>
 								Close Modal
 							</button>
-						</footer>
+						</footer> */}
 					</div>
 				)}
 			</div>
