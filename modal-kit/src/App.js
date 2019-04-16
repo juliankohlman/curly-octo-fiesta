@@ -11,15 +11,28 @@ class App extends Component {
 				<header className="tc pv4 pv5-ns">
 					<img
 						src="http://tachyons.io/img/logo.jpg"
-						className="br-100 pa1 ba b--black-10 h3 w3"
+						className="br-100 pa1 ba b--black-10 h4 w4"
 						alt="avatar"
 					/>
-					<h1 className="f5 f4-ns fw6 mid-gray">Julian J. Kohlman</h1>
-					<h2 className="f6 gray fw2 ttu tracked">Modal Kit</h2>
+					<h1 className="f5 f4-ns fw6 mid-gray .roboto">Julian J. Kohlman</h1>
+					<h2 className="f6 gray fw2 ttu tracked .calisto">Modal Kit</h2>
+					<article className="pa3 pa5-ns">
+						<h1 className="f4 bold center mw6">Modals</h1>
+						<ul className="list pl0 ml0 center mw6 ba b--light-silver br2">
+							<li className="ph3 pv3 bb b--light-silver">
+								<Basic title="Basic modal" />
+							</li>
+							<li className="ph3 pv3 bb b--light-silver">
+								<Profile title="Profile modal" />
+							</li>
+							<li className="ph3 pv3 bb b--light-silver">Movie Info</li>
+							<li className="ph3 pv3 bb b--light-silver">Scrolling</li>
+							<li className="ph3 pv3 bb b--light-silver">Full Screen</li>
+							<li className="ph3 pv3 bb b--light-silver">Mini</li>
+							<li className="ph3 pv3">Large</li>
+						</ul>
+					</article>
 				</header>
-
-				<Basic title="Basic modal" />
-				<Profile title="Profile modal" />
 			</div>
 		);
 	}

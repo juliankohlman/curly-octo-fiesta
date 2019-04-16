@@ -33,7 +33,7 @@ export default class Profile extends Component {
 									<img src={require('../images/rachel.png')} alt="profile" />
 								</div>
 								<div className="description">
-									<div className="ui-header">UI HEADER</div>
+									<div className="ui-header">Default Profile Image</div>
 									<p>
 										The push: a climbers journey of endurance, risk and going
 										beyond limits

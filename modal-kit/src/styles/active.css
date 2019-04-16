@@ -15,12 +15,14 @@
 }
 
 .active-modal h2 {
-	font-family: 'Open Sans';
+	font-family: 'Lato';
+	font-size: 18px;
 	font-weight: bold;
 }
 
 .active-modal p {
-	font-family: 'Lato';
-	font-weight: lighter;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 800;
 	margin: 8px;
 }
