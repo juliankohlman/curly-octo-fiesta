@@ -18,8 +18,8 @@ class App extends Component {
 					<h2 className="f6 gray fw2 ttu tracked">Modal Kit</h2>
 				</header>
 
-				{/* <Basic title="Basic modal" /> */}
-				<Profile />
+				<Basic title="Basic modal" />
+				<Profile title="Profile modal" />
 			</div>
 		);
 	}

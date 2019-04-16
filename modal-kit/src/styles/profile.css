@@ -10,6 +10,7 @@
 	background-color: rgba(34, 36, 38, 0.85);
 	align-items: center;
 	justify-content: center;
+	z-index: 0;
 }
 
 @media only screen and (min-width: 992px) {
@@ -49,7 +50,8 @@
 	display: block;
 	border-bottom: 1px solid rgba(34, 36, 38, 0.15);
 	font-family: 'Lato';
-	padding: 8px;
+	font-size: 20px;
+	padding: 1.3em;
 	font-weight: 700;
 	border-top-left-radius: 0.28rem;
 	border-top-right-radius: 0.28rem;
@@ -84,12 +86,13 @@
 .ui-header {
 	padding: 0 0;
 	font-family: 'Lato';
+	font-size: 18px;
 	font-weight: 700;
 	line-height: 1.28;
 	color: rgba(34, 36, 38, 0.87);
 }
 
-.actions {
+.profile-actions {
 	background: #f9fafb;
 	padding: 1rem 1rem;
 	border-top: 1px solid rgba(34, 36, 38, 0.15);
@@ -97,4 +100,33 @@
 	border-bottom-left-radius: 0.28rem;
 	border-bottom-right-radius: 0.28rem;
 	width: auto;
+}
+
+.profile-good {
+	background-color: green;
+	margin-left: 1rem;
+}
+
+.profile-good:hover {
+	background-color: #21ba45;
+}
+
+.nope {
+	background-color: #1b1c1d;
+}
+
+.nope:hover {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.profile-good,
+.nope {
+	color: #fff;
+	font-family: 'Lato';
+	font-size: 1rem;
+	font-weight: 900;
+	line-height: 1.5;
+	padding: 2px 12px;
+	cursor: pointer;
+	border-radius: 0.28rem;
 }

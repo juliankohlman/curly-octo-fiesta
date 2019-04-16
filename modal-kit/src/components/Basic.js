@@ -13,12 +13,14 @@ export default class Basic extends Component {
 	};
 
 	// Action handlers would likely be tied to some routing and/or Database interaction
-	cancelHandler = () => {
+	cancelHandler = e => {
 		alert('canceling now...');
+		e.stopPropagation();
 	};
 
-	okHandler = () => {
+	okHandler = e => {
 		alert('great adding candidate now...');
+		e.stopPropagation();
 	};
 
 	render() {
@@ -48,12 +50,6 @@ export default class Basic extends Component {
 								Yes
 							</button>
 						</div>
-						{/* Uncomment below to use dedicated close button */}
-						{/* <footer>
-							<button className="close-modal" onClick={this.toggleModal}>
-								Close Modal
-							</button>
-						</footer> */}
 					</div>
 				)}
 			</div>

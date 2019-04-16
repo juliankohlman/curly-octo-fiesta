@@ -1,16 +1,6 @@
 .actions {
-	width: 40%;
+	width: 70%;
 	display: flex;
-	margin-left: auto;
-	padding: 1rem 1rem 0 !important;
+	justify-content: flex-end;
+	padding-top: 15px;
 }
-
-/* READ UP ON HOW TO IMPLEMENT AND WHAT NEEDS TO HAPPEN IN PARENT FOR SWITCH TO BE SMOOTH */
-/* @media screen and (max-width: 500px) {
-	.actions {
-		align-self: normal;
-		justify-content: space-evenly;
-		flex-flow: column;
-		padding: 10px;
-	}
-} */
