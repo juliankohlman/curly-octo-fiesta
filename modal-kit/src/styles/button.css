@@ -22,13 +22,23 @@
 	color: green !important;
 }
 
-/* .ok:hover {
-	background: rgba(0, 0, 0, 0.95);
-} */
+.ok:hover {
+	background-color: green;
+	color: #fff !important;
+}
 
 .cancel {
-	background-color: red;
-	margin-right: 10px;
+	background-color: transparent;
+	border-width: medium;
+	border-color: #fff;
+	color: #fff !important;
+	margin-right: 10.5px !important;
+}
+
+.cancel:hover {
+	border-color: red;
+	margin-right: 10.5px !important;
+	color: red !important;
 }
 
 .close-modal {
