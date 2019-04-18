@@ -1,0 +1,94 @@
+.mini-modal {
+	width: 340px;
+	background: #fff;
+	border-radius: 0.28rem;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+}
+
+.header {
+	font-family: 'Lato';
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.28;
+	text-align: left;
+	margin: 0;
+}
+
+.content {
+	display: block;
+	width: 100%;
+	font-size: 1em;
+	line-height: 1.4;
+	padding: 1.5rem;
+	background: #fff;
+	text-align: left;
+}
+
+.mini-actions {
+	background: #f9fafb;
+	border-bottom-left-radius: 0.28rem;
+	border-bottom-right-radius: 0.28rem;
+	padding: 1rem 1rem;
+	border-top: 1px solid rgba(34, 36, 38, 0.15);
+	text-align: right;
+}
+
+.mini-cancel {
+	background-color: #db2828;
+	color: #fff;
+	text-shadow: none;
+	background-image: none;
+	font-size: 1rem;
+	font-weight: 700;
+	width: 60px;
+	margin-left: 0.75em;
+	font-family: 'Lato';
+	text-align: center;
+}
+
+.mini-ok {
+	background-color: #21ba45;
+	color: #fff;
+	font-size: 1rem;
+	margin-left: 0.75em;
+	font-family: 'Lato';
+	font-weight: 700;
+	line-height: 1em;
+	font-style: normal;
+	text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+	.mini-modal {
+		width: 360px;
+		margin: 0;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.mini-modal {
+		width: 340px;
+		margin: 0;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.mini-modal {
+		width: 35.2%;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.mini-modal {
+		width: 95%;
+		margin: 0;
+	}
+	.content {
+		padding: 1rem !important;
+	}
+}

@@ -14,6 +14,7 @@ export default class Profile extends Component {
 	modalClick = e => {
 		e.stopPropagation();
 	};
+
 	render() {
 		return (
 			<div>

@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Basic from './components/Basic';
 import Profile from './components/Profile';
+import Mini from './components/Mini';
 
 class App extends Component {
 	render() {
@@ -31,7 +32,9 @@ class App extends Component {
 						<li className="ph3 pv3 bb b--light-silver">Scrolling</li>
 						<li className="ph3 pv3 bb b--light-silver">Filter</li>
 						<li className="ph3 pv3 bb b--light-silver">Full Screen</li>
-						<li className="ph3 pv3 bb b--light-silver">Mini</li>
+						<li className="ph3 pv3 bb b--light-silver">
+							<Mini title="Mini modal" />
+						</li>
 						<li className="ph3 pv3">Large</li>
 					</ul>
 				</article>

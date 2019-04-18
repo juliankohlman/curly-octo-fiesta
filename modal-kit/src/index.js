@@ -5,6 +5,7 @@ import './styles/button.css';
 import './styles/active.css';
 import './styles/actions.css';
 import './styles/profile.css';
+import './styles/mini.css';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';

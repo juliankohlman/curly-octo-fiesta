@@ -49,7 +49,9 @@
 .open-modal,
 .ok,
 .cancel,
-.close-modal {
+.close-modal,
+.mini-cancel,
+.mini-ok {
 	color: #fff;
 	padding: 1px;
 	border-radius: 18%;
