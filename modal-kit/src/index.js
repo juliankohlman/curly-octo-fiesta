@@ -6,6 +6,7 @@ import './styles/active.css';
 import './styles/actions.css';
 import './styles/profile.css';
 import './styles/mini.css';
+// import _all.scss to include all sass modules
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
